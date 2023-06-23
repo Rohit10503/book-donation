@@ -1,0 +1,188 @@
+  /*Navbar css starts*/
+  .navbar{
+
+    align-items: center;
+     
+     background-color:rgb(255, 189, 66);
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 90px;
+ 
+ }
+ .nav-left{
+     padding-left: 1rem;
+ }
+ .nav-right{
+     padding:0px 20px;
+     width:10%;
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+ 
+ }
+ 
+ .nav-utils{
+     color: white;
+   
+ }
+ 
+ .nav-search{
+ 
+     padding:0px 20px;
+     border: 1px solid orange;
+     width: 370px;
+     border-radius: 15px;
+     height: 40px;
+ }
+ 
+ .butt{
+     color: white;
+     font-size: 0.9rem;
+     background-color: rgb(37, 37, 255);
+     border: 1px solid rgb(128, 128, 252);;
+     border-radius: 12rem;
+     padding: 20px;
+ 
+ 
+ }
+ .nav-right-but{
+     width: 10%;
+ }
+ .dropdown-content {
+    display: none;
+  position: absolute;
+  background-color: rgb(255, 224, 165);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1;
+color:rgb(255, 98, 98);}
+
+  .nav-utils-books:hover .dropdown-content {
+    display: block;
+  
+  }
+  .nav-utils-books{
+    color:white;
+    text-decoration: none;
+  }
+  /*Navbar css ends here*/
+
+  .mainbody{
+    background-color: rgb(255, 206, 114);
+    padding: 20px;
+  }
+  .head{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 1rem 1.9rem;
+
+}
+
+
+/*Cards css start*/
+.columns{
+    box-sizing: border-box;
+    float: left;
+    padding: 0px 20px ;
+    width:25%;
+    margin-bottom: 20px;
+    
+  }
+  .columns::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row:after{
+    
+    content: "";
+    display: table;
+    clear: both;
+  
+
+}
+.card{
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(255, 224, 165);
+    box-shadow:  0 4px 8px 0 rgba(6, 6, 6, 0.2);
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgba(5, 3, 3, 0.992);
+    justify-content: center;
+}
+.card:hover {
+    
+    /*box-shadow:  12 4px 0px  rgba(50, 47, 47, 0.2);*/
+box-shadow: 12px 10px 12px rgb(243, 215, 215);
+
+
+    
+}
+.card:hover .a{
+  display: block;
+}
+  
+.book-img{
+    height:16rem;
+
+
+}
+.bold{
+    font-weight: bold;
+    font-size: 16px;
+}
+.texts{
+    padding: 20px;
+}
+/*card css ends here*/
+
+.bookfield{
+    padding: 20px;
+  border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  /*
+ .book-desc{
+
+  
+    height: 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  */
+  .bottom{
+    color:white;
+    font-size: 26px;
+    text-align: center;
+   margin-bottom: 0px;
+   padding:  12px;
+    background-color: rgb(255, 166, 0);
+  }
+
+  .a{
+   
+  margin:0px 10px 0px;
+  position: absolute;
+  display:none;
+  border:1px solid black;
+  padding: 1px 4px;
+  background-color: rgb(247, 246, 244);
+  border-radius: 10px;
+ 
+  }
+  
